@@ -47,7 +47,7 @@
         <TextView
             android:id="@+id/added_time_preview"
             style="@style/timePreviewTextStyle"
-            tools:text="30s"/>
+            tools:text="1s"/>
 
         <SeekBar
             android:id="@+id/add_time_bar"

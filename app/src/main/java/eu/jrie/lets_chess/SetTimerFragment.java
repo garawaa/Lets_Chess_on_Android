@@ -56,7 +56,7 @@ public class SetTimerFragment extends Fragment {
         addedTimeBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-                addedTime = i * 30000;
+                addedTime = i * 1000;
                 String time = "";
                 int sec = addedTime/1000;
                 if(sec == 0) time = "0s";
